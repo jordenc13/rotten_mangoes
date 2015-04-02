@@ -46,3 +46,6 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use carrierwave for file upload
 gem 'carrierwave'
+gem "rmagick"
+
+gem 'pry'
