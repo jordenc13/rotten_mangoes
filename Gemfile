@@ -48,4 +48,6 @@ gem 'bcrypt-ruby', '3.1.2'
 gem 'carrierwave'
 gem "rmagick"
 
+gem 'kaminari'
+
 gem 'pry'

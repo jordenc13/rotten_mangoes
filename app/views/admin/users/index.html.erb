@@ -1,5 +1,7 @@
 <h1>Admin</h1>
 
+<%= paginate @users %>
+
 <% @users.each do |user|%>
   <div>
     <%= user.full_name %>
