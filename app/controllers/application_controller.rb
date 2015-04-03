@@ -4,7 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   protected
-
   def restrict_access
     if !current_user
       flash[:alert] = "You must log in."
